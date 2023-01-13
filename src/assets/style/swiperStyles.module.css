@@ -1,0 +1,11 @@
+:root {
+  --swiper-theme-color: #c83044;
+}
+
+/* .swiper-pagination .swiper-pagination-bullet {
+  width: 50px;
+  height: 5px;
+} */
+.swiper-pagination {
+  position: absolute;
+}

@@ -1,0 +1,164 @@
+.navWrapper nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+  width: 95vw;
+  padding: 27px 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0.7px 2.2px rgba(0, 0, 0, 0.018), 0px 1.6px 5.3px rgba(0, 0, 0, 0.024), 0px 3px 10px rgba(0, 0, 0, 0.026), 0px 5.4px 17.9px rgba(0, 0, 0, 0.029), 0px 10px 33.4px rgba(0, 0, 0, 0.036), 0px 24px 80px rgba(0, 0, 0, 0.07);
+}
+.navWrapper nav h1 {
+  width: 190px;
+  height: 44px;
+}
+.navWrapper nav .menu {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 155px;
+}
+.navWrapper nav .menu li a {
+  display: block;
+  width: 150px;
+  height: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+.navWrapper nav .menu .subMenu {
+  display: none;
+}
+.navWrapper nav .register {
+  margin-top: 10px;
+}
+.navWrapper nav .register span :first-child {
+  margin-right: 10px;
+}
+.navWrapper .mySwiper {
+  position: relative;
+  top: 70px;
+}
+.navWrapper .mySwiper .swiper-button-prev,
+.navWrapper .mySwiper .swiper-button-next {
+  color: transparent;
+}
+.navWrapper .mySwiper .slide {
+  position: relative;
+}
+.navWrapper .mySwiper .slide div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%);
+  text-align: center;
+  color: #fff;
+}
+.navWrapper .mySwiper .slide div h2 {
+  font-size: 64px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+}
+.navWrapper .mySwiper .slide div p {
+  font-size: 18px;
+  color: #eee;
+  text-align: center;
+}
+
+.serviceWrapper {
+  position: relative;
+  top: 70px;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+.serviceWrapper h2 {
+  padding: 80px 0 15px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.serviceWrapper .des {
+  font-size: 17px;
+  color: #888;
+  padding-bottom: 50px;
+}
+.serviceWrapper ul {
+  display: flex;
+  justify-content: center;
+}
+.serviceWrapper ul li {
+  width: 200px;
+  padding: 25px;
+}
+.serviceWrapper ul li h3 {
+  font-size: 17px;
+  margin-top: 15px;
+  color: #333;
+  font-weight: 500;
+}
+.serviceWrapper ul li p {
+  margin: 10px 0 30px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+  width: 190px;
+}
+.serviceWrapper ul li a {
+  display: block;
+}
+.serviceWrapper ul li a button {
+  outline: none;
+  font-size: 12px;
+  color: #555;
+  border: 1px #bbb solid;
+  border-radius: 20px;
+  padding: 6px 25px;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.serviceWrapper ul li a button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.productWrapper {
+  margin: 170px auto 0;
+  background-color: #f2f2f2;
+  padding: 80px 15px 100px;
+  text-align: center;
+}
+.productWrapper h2 {
+  padding-bottom: 15px;
+  font-size: 34px;
+  font-weight: bold;
+}
+.productWrapper p {
+  font-size: 17px;
+  color: #888;
+  padding-bottom: 50px;
+}
+.productWrapper .productList {
+  display: flex;
+}
+.productWrapper .productList .productItem {
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.productWrapper .productList .productItem .itemWrap {
+  width: 305px;
+  height: 228.75px;
+}
+.productWrapper .productList .productItem .itemWrap .itemImg img {
+  width: 305px;
+  height: 228.75px;
+}
+.productWrapper .productList .productItem .itemWrap .itemTitle {
+  display: none;
+}
+
+.insideWrapper {
+  width: 95vw;
+  height: 500px;
+  background: url(/images/bn-img.jpeg) no-repeat 50%/cover;
+}

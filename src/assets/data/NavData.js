@@ -1,0 +1,45 @@
+const NavData = [
+  {
+    id: 1,
+    URL: 'http://bdmp-005.cafe24.com/bizdemo135866/company/company01.php?sub=01',
+    title: '회사소개',
+    subTitle1: '회사개요',
+    subTitle2: 'CEO인사말',
+    subTitle3: '오시는길',
+  },
+  {
+    id: 2,
+    URL: 'http://bdmp-005.cafe24.com/bizdemo135866/business/business01.php?sub=01',
+    title: '사업분야',
+    subTitle1: '사업분야01',
+    subTitle2: '사업분야02',
+    subTitle3: '사업분야03',
+    subTitle4: '사업분야04',
+  },
+  {
+    id: 3,
+    URL: 'http://bdmp-005.cafe24.com/bizdemo135866/product/product01.php?sub=01',
+    title: '제품안내',
+    subTitle1: '제품안내01',
+    subTitle2: '제품안내02',
+    subTitle3: '제품안내03',
+    subTitle4: '제품안내04',
+  },
+  {
+    id: 4,
+    URL: 'http://bdmp-005.cafe24.com/bizdemo135866/community/community01.php?sub=01',
+    title: '커뮤니티',
+    subTitle1: '공지사항',
+    subTitle2: '홍보자료',
+    subTitle3: '채용안내',
+  },
+  {
+    id: 5,
+    URL: 'http://bdmp-005.cafe24.com/bizdemo135866/customer/customer01.php?sub=01',
+    title: '고객지원',
+    subTitle1: '1:1문의',
+    subTitle2: '묻고답하기',
+    subTitle3: 'FAQ',
+  },
+];
+export default NavData;
