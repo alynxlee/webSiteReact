@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/webSiteReact/static/css/main.18a41249.css",
-    "main.js": "/webSiteReact/static/js/main.d80cacc8.js",
+    "main.js": "/webSiteReact/static/js/main.8af40560.js",
     "static/media/bn-img.jpeg": "/webSiteReact/static/media/bn-img.d6a830957d39c95893cb.jpeg",
     "index.html": "/webSiteReact/index.html",
     "main.18a41249.css.map": "/webSiteReact/static/css/main.18a41249.css.map",
-    "main.d80cacc8.js.map": "/webSiteReact/static/js/main.d80cacc8.js.map"
+    "main.8af40560.js.map": "/webSiteReact/static/js/main.8af40560.js.map"
   },
   "entrypoints": [
     "static/css/main.18a41249.css",
-    "static/js/main.d80cacc8.js"
+    "static/js/main.8af40560.js"
   ]
 }
