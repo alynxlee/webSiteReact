@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import FooterData1 from "../assets/data/FooterData1";
-import SnsData from "../assets/data/SnsData";
-import FooterData2 from "../assets/data/FooterData2";
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import FooterData1 from '../assets/data/FooterData1';
+import SnsData from '../assets/data/SnsData';
+import FooterData2 from '../assets/data/FooterData2';
 
-import "../assets/style/style.scss";
+import '../assets/style/style.scss';
 
 function Footer({ path }) {
   const [policy, setPolicy] = useState(FooterData1);
@@ -14,10 +14,10 @@ function Footer({ path }) {
     <div className="footerWrapper">
       <div className="footerContainer">
         <h1>
-          <img src={path + "/images/logo-f.png"} alt="footerLogo" />
+          <img src={path + '/images/logo-f.png'} alt="footerLogo" />
         </h1>
         <ul className="policyWrapper">
-          {policy.map((item) => {
+          {policy.map(item => {
             const { id, title } = item;
             return (
               <li key={id}>
@@ -27,7 +27,7 @@ function Footer({ path }) {
           })}
         </ul>
         <ul className="snsWrapper">
-          {sns.map((item) => {
+          {sns.map(item => {
             const { id, icon, title } = item;
             return (
               <li>
@@ -39,17 +39,15 @@ function Footer({ path }) {
           })}
         </ul>
         <ul className="infoWrapper">
-          {info.map((item) => {
+          {info.map(item => {
             const { id, title } = item;
             return <li key={id}>{title}</li>;
           })}
         </ul>
-        <div className="copyRight">
-          COPYRIGHT © 2022 FIVESTONE. ALL RIGHT RESERVED
-        </div>
+        <div className="copyRight">COPYRIGHT © 2022 FIVESTONE. ALL RIGHT RESERVED</div>
       </div>
       <a href="#" className="goUp">
-        <img src="/images/icon-top.png" alt="top" />
+        <img src={path + '/images/icon-top.png'} alt="top" />
       </a>
     </div>
   );
